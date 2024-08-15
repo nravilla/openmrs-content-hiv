@@ -106,36 +106,36 @@
 		</plugins>
 	</build>
 	<pluginRepositories>
-        <pluginRepository>
-            <id>openmrs-releases</id>
-            <name>OpenMRS JFrog Releases</name>
-            <url>https://openmrs.jfrog.io/artifactory/releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>openmrs-snapshots</id>
-            <name>OpenMRS JFrog Snapshots</name>
-            <url>https://openmrs.jfrog.io/artifactory/snapshots</url>
-            <releases>
-                <enabled>false</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
+		<pluginRepository>
+			<id>openmrs-releases</id>
+			<name>OpenMRS JFrog Releases</name>
+			<url>https://openmrs.jfrog.io/artifactory/releases</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+		<pluginRepository>
+			<id>openmrs-snapshots</id>
+			<name>OpenMRS JFrog Snapshots</name>
+			<url>https://openmrs.jfrog.io/artifactory/snapshots</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
 	<distributionManagement>
 		<repository>
 			<id>openmrs-repo-modules</id>
 			<name>OpenMRS Nexus Modules</name>
-			<url>http://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
+			<url>https://mavenrepo.openmrs.org/nexus/content/repositories/releases</url>
 		</repository>
 		<snapshotRepository>
 			<id>openmrs-repo-snapshots</id>
 			<name>OpenMRS Nexus Snapshots</name>
-			<url>http://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
+			<url>https://mavenrepo.openmrs.org/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 </project>
